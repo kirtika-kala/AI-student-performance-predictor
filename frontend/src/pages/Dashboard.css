@@ -1,0 +1,136 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+}
+
+
+.main-full {
+  padding: 30px;
+  min-height: 100vh;
+}
+
+.top-header {
+  width: 100%;
+  background: linear-gradient(135deg, orange, #ffb347);
+  padding: 15px;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.top-header h1 {
+  margin: 0;
+  color: white;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+
+.welcome {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.card {
+  flex: 1;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+
+.highlight {
+  background: linear-gradient(135deg, orange, #ffb347);
+  color: white;
+  font-weight: bold;
+}
+
+
+.inputs {
+  margin-bottom: 30px;
+}
+
+.inputs input {
+  margin: 10px;
+  padding: 10px;
+  width: 160px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.3s;
+}
+
+.inputs input:focus {
+  border-color: orange;
+  box-shadow: 0 0 5px rgba(255,165,0,0.5);
+}
+
+
+button {
+  padding: 10px 20px;
+  background: orange;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: darkorange;
+  transform: scale(1.05);
+}
+
+
+.charts-section,
+.graph-section,
+.table-section {
+  margin-top: 30px;
+}
+
+
+.graph-section h2 {
+  margin-bottom: 10px;
+}
+
+
+table {
+  width: 100%;
+  background: white;
+  border-collapse: collapse;
+  margin-top: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+th {
+  background: linear-gradient(135deg, orange, #ffb347);
+  color: white;
+}
+
+td, th {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #eee;
+}
+
+tr:hover {
+  background: #f9f9f9;
+}
